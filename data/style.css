@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    padding: 16px;
+    color: #202124;
+}
+
+.card {
+    width: 100%;
+    max-width: 380px;
+    background: #ffffff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 40px 40px 32px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+/* Logo testuale multicolore, ispirato allo stile Google ma con nome diverso */
+.brand {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+.brand-f  { color: #4285F4; }
+.brand-o1 { color: #EA4335; }
+.brand-o2 { color: #FBBC05; }
+.brand-g  { color: #4285F4; }
+.brand-l  { color: #34A853; }
+.brand-e  { color: #EA4335; }
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0 0 6px;
+    text-align: center;
+    color: #202124;
+}
+
+.subtitle {
+    margin: 0 0 26px;
+    color: #5f6368;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.field {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.field input {
+    width: 100%;
+    padding: 13px 12px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    outline: none;
+    background: transparent;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.field input:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 1px #1a73e8;
+}
+
+.field label {
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    font-size: 0.95rem;
+    color: #5f6368;
+    background: #ffffff;
+    padding: 0 4px;
+    pointer-events: none;
+    transition: 0.15s ease all;
+}
+
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label {
+    top: -9px;
+    left: 8px;
+    font-size: 0.75rem;
+    color: #1a73e8;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.link-muted {
+    color: #1a73e8;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-muted:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    background: #1a73e8;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+button:hover {
+    background: #1765cc;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.error {
+    margin: 4px 0 0;
+    color: #d93025;
+    font-size: 0.82rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.check-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #e6f4ea;
+    color: #34a853;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+}
+
+#success-screen {
+    text-align: center;
+}
+
+.disclaimer {
+    max-width: 380px;
+    margin-top: 18px;
+    font-size: 0.72rem;
+    color: #80868b;
+    text-align: center;
+    line-height: 1.4;
+}

