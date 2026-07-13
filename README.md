@@ -102,3 +102,9 @@ valuta se esporre `/admin` sia davvero necessario in produzione.
   del tentativo di connessione dopo il salvataggio.
 - Cifrare il file di configurazione su Flash se contiene credenziali
   sensibili (LittleFS non cifra i dati at-rest di default).
+
+##  ⚖️ LICENZA
+Questo progetto è sotto licensa GNU v.3, per maggiori informazioni consultare il file LICENSE.
+
+## ⚠️DISCLAIMER⚠️
+Questo progetto è nato per essere utilizzato solo per fini didattici ed educativi. L'autore si solleva da ogni possibile danno causato da utilizzo non conforme e questi scopi
