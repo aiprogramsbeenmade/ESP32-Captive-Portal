@@ -104,7 +104,7 @@ valuta se esporre `/admin` sia davvero necessario in produzione.
   sensibili (LittleFS non cifra i dati at-rest di default).
 
 ##  ⚖️ LICENZA
-Questo progetto è sotto licensa GNU v.3, per maggiori informazioni consultare il file LICENSE.
+Questo progetto è sotto licensa GPL V.3, per maggiori informazioni consultare il file LICENSE.
 
 ## ⚠️DISCLAIMER⚠️
 Questo progetto è nato per essere utilizzato solo per fini didattici ed educativi. L'autore si solleva da ogni possibile danno causato da utilizzo non conforme e questi scopi
